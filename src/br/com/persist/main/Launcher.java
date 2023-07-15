@@ -13,6 +13,6 @@ public class Launcher {
 
 	private static Object[] params() {
 		String[] args = new String[] {};
-		return new Object[] {args};
+		return new Object[] { args };
 	}
 }
