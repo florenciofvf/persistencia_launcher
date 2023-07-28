@@ -4,19 +4,19 @@
 	<para tabela="candidato" apelido="c">
 		<instrucao nome="total votos">
 			<![CDATA[
-				UPDATE candidato SET votos = 0 WHERE id = #id#
+				UPDATE candidato SET votos = 0 WHERE id = ###id###
 			]]>
 		</instrucao>
 
 		<instrucao nome="Todos os registros">
 			<![CDATA[
-				SELECT * FROM candidato WHERE id = #id#
+				SELECT * FROM candidato WHERE id = ###id###
 			]]>
 		</instrucao>
 
 		<instrucao nome="Excluir registro">
 			<![CDATA[
-				DELETE FROM candidato WHERE id = #id#
+				DELETE FROM candidato WHERE id = ###id###
 			]]>
 		</instrucao>
 
@@ -33,7 +33,7 @@
 	<para tabela="candidato2">
 		<instrucao nome="Alterar Total de Votos" selecaoMultipla="true">
 			<![CDATA[
-				UPDATE candidato2 SET votos = 123 WHERE id IN (#id#)
+				UPDATE candidato2 SET votos = 123 WHERE id IN (###id###)
 			]]>
 		</instrucao>
 	</para>
