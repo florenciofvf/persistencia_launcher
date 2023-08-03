@@ -50,3 +50,7 @@
 @@@br.com.persist.plugins.instrucao.nat.Arquivo setLinhaString
 ##$arquivoString
 ##$linhaString
+
+@@@br.com.persist.plugins.instrucao.nat.Arquivo copiar
+##$absolutoOrigem
+##$absolutoDestino

@@ -23,3 +23,5 @@ funcao_nativa br_com_persist_plugins_instrucao_nat_Arquivo substituirLinhaString
 funcao_nativa br_com_persist_plugins_instrucao_nat_Arquivo salvarArquivoString($arquivoString, $charset)
 
 funcao_nativa br_com_persist_plugins_instrucao_nat_Arquivo setLinhaString($arquivoString, $linhaString)
+
+funcao_nativa br_com_persist_plugins_instrucao_nat_Arquivo copiar($absolutoOrigem, $absolutoDestino)
