@@ -32,6 +32,7 @@
 	<menu descricao="Configurações">
 		<menu classeFabrica="br.com.persist.plugins.configuracao.ConfiguracaoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.propriedade.PropriedadeFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Ambientes">
