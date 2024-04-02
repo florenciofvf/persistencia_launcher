@@ -42,6 +42,7 @@
 
 	<menu descricao="Miscelânia">
 		<menu classeFabrica="br.com.persist.plugins.quebra_log.QuebraLogFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.robo.RoboFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Aparência">
