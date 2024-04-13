@@ -38,10 +38,10 @@
 		</instrucao>
 	</para>
 
-	<para tabela="eleicao" icone="executar" checarRegistro="true">
+	<para tabela="eleicao" icone="executar">
 	</para>
 
-	<pesquisa nome="Candidatos" tabela="eleicao" campo="id" iconeGrupo="boss">
+	<pesquisa nome="Candidatos" iconeGrupo="boss" tabela="eleicao" campo="id">
 		<ref tabela="candidato" campo="eleicao_id"/>
 		<ref tabela="candidato2" campo="eleicao_id" grupo="2" vazio="invisivel"/>
 		<ref tabela="candidato" campo="ELEICAO_ID" grupo="ELEICAO_ID" vazio="invisivel"/>
