@@ -12,9 +12,9 @@
 
 	<menu descricao="Banco">
 		<menu classeFabrica="br.com.persist.plugins.conexao.ConexaoFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.consulta.ConsultaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.update.UpdateFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Utilitários">
@@ -25,15 +25,18 @@
 		<menu classeFabrica="br.com.persist.plugins.requisicao.RequisicaoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.execucao.ExecucaoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.entrega.EntregaFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.mapa.MapaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.instrucao.InstrucaoFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.atributo.AtributoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Configurações">
 		<menu classeFabrica="br.com.persist.plugins.configuracao.ConfiguracaoFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.propriedade.PropriedadeFabrica" ativo="true" />
+	</menu>
+
+	<menu descricao="Geradores">
+		<menu classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.atributo.AtributoFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.legado.LegadoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Ambientes">
@@ -42,6 +45,7 @@
 
 	<menu descricao="Miscelânia">
 		<menu classeFabrica="br.com.persist.plugins.quebra_log.QuebraLogFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.mapa.MapaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.robo.RoboFabrica" ativo="true" />
 	</menu>
 
