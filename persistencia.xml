@@ -25,7 +25,7 @@
 		<menu
 			classeFabrica="br.com.persist.plugins.conexao.ConexaoFabrica"
 			ativo="true" />
-		<menu
+		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica"
 			ativo="true" />
 		<menu
@@ -62,27 +62,6 @@
 			ativo="true" />
 	</menu>
 
-	<menu descricao="Configurações">
-		<menu
-			classeFabrica="br.com.persist.plugins.configuracao.ConfiguracaoFabrica"
-			ativo="true" />
-		<menu separador="true"
-			classeFabrica="br.com.persist.plugins.propriedade.PropriedadeFabrica"
-			ativo="true" />
-	</menu>
-
-	<menu descricao="Geradores">
-		<menu
-			classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica"
-			ativo="true" />
-		<menu separador="true"
-			classeFabrica="br.com.persist.plugins.atributo.AtributoFabrica"
-			ativo="true" />
-		<menu separador="true"
-			classeFabrica="br.com.persist.plugins.legado.LegadoFabrica"
-			ativo="true" />
-	</menu>
-
 	<menu descricao="Ambientes">
 		<menu
 			classeFabrica="br.com.persist.plugins.ambiente.AmbienteFabrica"
@@ -102,6 +81,27 @@
 	<menu descricao="Aparência">
 		<menu
 			classeFabrica="br.com.persist.plugins.aparencia.AparenciaFabrica"
+			ativo="true" />
+	</menu>
+
+	<menu descricao="Geradores">
+		<menu
+			classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica"
+			ativo="true" />
+		<menu separador="true"
+			classeFabrica="br.com.persist.plugins.atributo.AtributoFabrica"
+			ativo="true" />
+		<menu separador="true"
+			classeFabrica="br.com.persist.plugins.legado.LegadoFabrica"
+			ativo="true" />
+	</menu>
+
+	<menu descricao="Configurações">
+		<menu
+			classeFabrica="br.com.persist.plugins.configuracao.ConfiguracaoFabrica"
+			ativo="true" />
+		<menu separador="true"
+			classeFabrica="br.com.persist.plugins.propriedade.PropriedadeFabrica"
 			ativo="true" />
 	</menu>
 </menuPrincipal>
