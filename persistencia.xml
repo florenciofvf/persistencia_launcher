@@ -78,12 +78,6 @@
 			classeFabrica="br.com.persist.plugins.robo.RoboFabrica" ativo="true" />
 	</menu>
 
-	<menu descricao="Aparência">
-		<menu
-			classeFabrica="br.com.persist.plugins.aparencia.AparenciaFabrica"
-			ativo="true" />
-	</menu>
-
 	<menu descricao="Geradores">
 		<menu
 			classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica"
@@ -93,6 +87,12 @@
 			ativo="true" />
 		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.legado.LegadoFabrica"
+			ativo="true" />
+	</menu>
+
+	<menu descricao="Aparência">
+		<menu
+			classeFabrica="br.com.persist.plugins.aparencia.AparenciaFabrica"
 			ativo="true" />
 	</menu>
 
