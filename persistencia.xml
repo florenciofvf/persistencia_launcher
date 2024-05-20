@@ -71,7 +71,7 @@
 	<menu descricao="Miscelânia">
 		<menu classeFabrica="br.com.persist.plugins.ponto.PontoFabrica"
 			ativo="true" />
-		<menu
+		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.quebra_log.QuebraLogFabrica"
 			ativo="true" />
 		<menu separador="true"
