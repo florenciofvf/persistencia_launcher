@@ -4,6 +4,8 @@ function_native br_com_persist_plugins_instrucao_biblionativo_List notContains(l
 
 function_native br_com_persist_plugins_instrucao_biblionativo_List contains(lista, valor)
 
+function_native br_com_persist_plugins_instrucao_biblionativo_List addNew(lista, valor)
+
 function_native br_com_persist_plugins_instrucao_biblionativo_List add(lista, valor)
 
 function_native br_com_persist_plugins_instrucao_biblionativo_List size(lista)

@@ -8,6 +8,10 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List contains
 parametro lista
 parametro valor
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List addNew
+parametro lista
+parametro valor
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List add
 parametro lista
 parametro valor
