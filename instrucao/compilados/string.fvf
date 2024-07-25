@@ -1,4 +1,16 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String lower
+parametro object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String upper
+parametro object
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String notEmpty
+parametro object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String trim
+parametro object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String size
 parametro object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String empty

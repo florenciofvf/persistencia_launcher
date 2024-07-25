@@ -1,4 +1,12 @@
+function_native br_com_persist_plugins_instrucao_biblionativo_String lower(object)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_String upper(object)
+
 function_native br_com_persist_plugins_instrucao_biblionativo_String notEmpty(object)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_String trim(object)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_String size(object)
 
 function_native br_com_persist_plugins_instrucao_biblionativo_String empty(object)
 
