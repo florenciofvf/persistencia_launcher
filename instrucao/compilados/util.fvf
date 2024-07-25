@@ -1,21 +1,13 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util getFalse
 
-@@@br.com.persist.plugins.instrucao.nat.Util isNull
-##$objeto
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util getTrue
 
-@@@br.com.persist.plugins.instrucao.nat.Util isNotNull
-##$objeto
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util isNotNull
+parametro object
 
-@@@br.com.persist.plugins.instrucao.nat.Util stringEmpty
-##$objeto
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util toString
+parametro object
 
-@@@br.com.persist.plugins.instrucao.nat.Util stringNotEmpty
-##$objeto
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util isNull
+parametro object
 
-@@@br.com.persist.plugins.instrucao.nat.Util parseBigInteger
-##$objeto
-
-@@@br.com.persist.plugins.instrucao.nat.Util parseBigDecimal
-##$objeto
-
-@@@br.com.persist.plugins.instrucao.nat.Util toString
-##$objeto

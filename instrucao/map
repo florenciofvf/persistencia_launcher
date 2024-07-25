@@ -1,1 +1,6 @@
-funcao_nativa br_com_persist_plugins_instrucao_nat_Mapa get($mapa, $chave)
+function_native br_com_persist_plugins_instrucao_biblionativo_Map get(mapa, chave)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_Map put(mapa, chave, valor)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_Map size(mapa)
+

@@ -1,13 +1,10 @@
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util isNull($objeto)
+function_native br_com_persist_plugins_instrucao_biblionativo_Util getFalse()
 
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util isNotNull($objeto)
+function_native br_com_persist_plugins_instrucao_biblionativo_Util getTrue()
 
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util stringEmpty($objeto)
+function_native br_com_persist_plugins_instrucao_biblionativo_Util isNotNull(object)
 
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util stringNotEmpty($objeto)
+function_native br_com_persist_plugins_instrucao_biblionativo_Util toString(object)
 
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util parseBigInteger($objeto)
+function_native br_com_persist_plugins_instrucao_biblionativo_Util isNull(object)
 
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util parseBigDecimal($objeto)
-
-funcao_nativa br_com_persist_plugins_instrucao_nat_Util toString($objeto)

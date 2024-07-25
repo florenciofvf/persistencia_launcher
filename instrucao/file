@@ -1,0 +1,24 @@
+function_native br_com_persist_plugins_instrucao_biblionativo_File criarArquivo(absoluto)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File selecionarLinhas(arquivo, objString, trim)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File selecionarLinhasIniciaEfinalizaCom(arquivo, objIni, objFim, trim)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File selecionarLinhasConteudoEntreIniciaEfinalizaCom(arquivo, objIni, objFim, trim)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File selecionarLinhasConteudoEntreIniciaEfinalizaComReplace(arquivo, objIni, objFim, objNova, trim)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File getLinha(arquivo, numero)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File clonarLinha(objLinha, string)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File criarLinha(numero, string)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File substituirLinha(arquivo, objLinha, charset)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File salvarArquivo(arquivo, charset)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File setLinha(arquivo, linha)
+
+function_native br_com_persist_plugins_instrucao_biblionativo_File copiar(absolutoOrigem, absolutoDestino)
+
