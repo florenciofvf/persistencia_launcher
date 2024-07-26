@@ -1,36 +1,22 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarArquivo
-parametro absoluto
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhas
-parametro arquivo
-parametro objString
-parametro trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasIniciaEfinalizaCom
-parametro arquivo
-parametro objIni
-parametro objFim
-parametro trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaCom
-parametro arquivo
-parametro objIni
-parametro objFim
-parametro trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaComReplace
-parametro arquivo
-parametro objIni
-parametro objFim
-parametro objNova
-parametro trim
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File getLinha
 parametro arquivo
 parametro numero
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaCom
+parametro arquivo
+parametro stringInicio
+parametro stringFinal
+parametro trim
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaComReplace
+parametro arquivo
+parametro stringInicio
+parametro stringFinal
+parametro novaString
+parametro trim
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File clonarLinha
-parametro objLinha
+parametro linha
 parametro string
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarLinha
@@ -39,7 +25,7 @@ parametro string
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File substituirLinha
 parametro arquivo
-parametro objLinha
+parametro linha
 parametro charset
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File salvarArquivo
@@ -53,4 +39,18 @@ parametro linha
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File copiar
 parametro absolutoOrigem
 parametro absolutoDestino
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarArquivo
+parametro absoluto
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhas
+parametro arquivo
+parametro string
+parametro trim
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasIniciaEfinalizaCom
+parametro arquivo
+parametro stringInicio
+parametro stringFinal
+parametro trim
 
