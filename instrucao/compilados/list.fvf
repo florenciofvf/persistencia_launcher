@@ -1,33 +1,33 @@
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List addNew
-parametro lista
-parametro valor
+param lista
+param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List notContains
-parametro lista
-parametro valor
+param lista
+param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List add
-parametro lista
-parametro valor
+param lista
+param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List clear
-parametro lista
+param lista
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List contains
-parametro lista
-parametro valor
+param lista
+param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List size
-parametro lista
+param lista
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List create
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List head
-parametro lista
+param lista
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List empty
-parametro lista
+param lista
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List tail
-parametro lista
+param lista
 

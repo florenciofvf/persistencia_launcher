@@ -1,56 +1,56 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File getLinha
-parametro arquivo
-parametro numero
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaCom
-parametro arquivo
-parametro stringInicio
-parametro stringFinal
-parametro trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaComReplace
-parametro arquivo
-parametro stringInicio
-parametro stringFinal
-parametro novaString
-parametro trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File clonarLinha
-parametro linha
-parametro string
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarLinha
-parametro numero
-parametro string
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File substituirLinha
-parametro arquivo
-parametro linha
-parametro charset
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File salvarArquivo
-parametro arquivo
-parametro charset
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File setLinha
-parametro arquivo
-parametro linha
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File copiar
-parametro absolutoOrigem
-parametro absolutoDestino
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarArquivo
-parametro absoluto
+param absoluto
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhas
-parametro arquivo
-parametro string
-parametro trim
+param arquivo
+param string
+param trim
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasIniciaEfinalizaCom
-parametro arquivo
-parametro stringInicio
-parametro stringFinal
-parametro trim
+param arquivo
+param stringInicio
+param stringFinal
+param trim
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaCom
+param arquivo
+param stringInicio
+param stringFinal
+param trim
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File selecionarLinhasConteudoEntreIniciaEfinalizaComReplace
+param arquivo
+param stringInicio
+param stringFinal
+param novaString
+param trim
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File getLinha
+param arquivo
+param numero
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File clonarLinha
+param linha
+param string
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File criarLinha
+param numero
+param string
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File substituirLinha
+param arquivo
+param linha
+param charset
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File salvarArquivo
+param arquivo
+param charset
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File setLinha
+param arquivo
+param linha
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File copiar
+param absolutoOrigem
+param absolutoDestino
 

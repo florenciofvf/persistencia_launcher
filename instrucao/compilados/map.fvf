@@ -1,12 +1,12 @@
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Map get
-parametro mapa
-parametro chave
+param mapa
+param chave
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Map put
-parametro mapa
-parametro chave
-parametro valor
+param mapa
+param chave
+param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Map size
-parametro mapa
+param mapa
 

@@ -1,24 +1,24 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String upper
-parametro object
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String notEmpty
-parametro object
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String lower
-parametro object
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String createStringPool
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String upper
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String lower
+param object
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String append
-parametro stringPool
-parametro object
+param stringPool
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String trim
-parametro object
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String size
-parametro object
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String empty
-parametro object
+param object
 

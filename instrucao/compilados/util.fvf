@@ -1,13 +1,13 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util getFalse
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util getTrue
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util getFalse
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util isNotNull
-parametro object
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util toString
-parametro object
+param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Util isNull
-parametro object
+param object
 
