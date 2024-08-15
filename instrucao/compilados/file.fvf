@@ -43,10 +43,12 @@ param linha
 param charset
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File salvarArquivo
+tipo_void
 param arquivo
 param charset
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.File setLinha
+tipo_void
 param arquivo
 param linha
 

@@ -9,5 +9,6 @@ param usuario
 param senha
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.DB closeConnection
+tipo_void
 param conexao
 

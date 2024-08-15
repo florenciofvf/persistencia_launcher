@@ -1,4 +1,4 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_System timeMillis()
+function_native br_com_persist_plugins_instrucao_biblionativo_System timeMillis();
 
-function_native br_com_persist_plugins_instrucao_biblionativo_System nanoTime()
+function_native br_com_persist_plugins_instrucao_biblionativo_System nanoTime();
 

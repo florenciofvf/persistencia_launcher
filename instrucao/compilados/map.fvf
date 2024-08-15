@@ -3,6 +3,7 @@ param mapa
 param chave
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Map put
+tipo_void
 param mapa
 param chave
 param valor

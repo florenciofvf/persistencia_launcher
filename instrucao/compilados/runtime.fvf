@@ -1,3 +1,4 @@
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Runtime exec
+tipo_void
 param comando
 

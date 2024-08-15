@@ -10,6 +10,7 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String lower
 param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.String append
+tipo_void
 param stringPool
 param object
 

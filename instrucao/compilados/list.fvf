@@ -7,10 +7,12 @@ param lista
 param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List add
+tipo_void
 param lista
 param valor
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List clear
+tipo_void
 param lista
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List contains
