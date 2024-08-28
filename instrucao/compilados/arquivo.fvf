@@ -9,3 +9,4 @@ param charset
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Arquivo copiar
 param absolutoOrigem
 param absolutoDestino
+
