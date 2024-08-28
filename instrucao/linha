@@ -1,17 +1,18 @@
+function_native br_com_persist_plugins_instrucao_biblionativo_Linha clonar(linha, string);
+
 function_native br_com_persist_plugins_instrucao_biblionativo_Linha iguais(arquivo, string, trim);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_Linha iniciaEfinaliza(arquivo, stringInicio, stringFinal, trim);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_Linha entreIniciaEfinaliza(arquivo, stringInicio, stringFinal, trim);
+function_native br_com_persist_plugins_instrucao_biblionativo_Linha iniciaEfinalizaEntre(arquivo, stringInicio, stringFinal, trim);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_Linha entreIniciaEfinalizaReplace(arquivo, stringInicio, stringFinal, novaString, trim);
-
-function_native br_com_persist_plugins_instrucao_biblionativo_Linha get(arquivo, numero);
-
-function_native br_com_persist_plugins_instrucao_biblionativo_Linha clonar(linha, string);
+function_native br_com_persist_plugins_instrucao_biblionativo_Linha iniciaEfinalizaEntreReplace(arquivo, stringInicio, stringFinal, novaString, trim);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_Linha criar(numero, string);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_Linha setEsalva(arquivo, linha, charset);
 
+function_native br_com_persist_plugins_instrucao_biblionativo_Linha get(arquivo, numero);
+
 function_native br_com_persist_plugins_instrucao_biblionativo_Linha set(arquivo, linha) : void;
+

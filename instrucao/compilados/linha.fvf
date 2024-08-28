@@ -1,3 +1,7 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha clonar
+param linha
+param string
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha iguais
 param arquivo
 param string
@@ -9,26 +13,18 @@ param stringInicio
 param stringFinal
 param trim
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha entreIniciaEfinaliza
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha iniciaEfinalizaEntre
 param arquivo
 param stringInicio
 param stringFinal
 param trim
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha entreIniciaEfinalizaReplace
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha iniciaEfinalizaEntreReplace
 param arquivo
 param stringInicio
 param stringFinal
 param novaString
 param trim
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha get
-param arquivo
-param numero
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha clonar
-param linha
-param string
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha criar
 param numero
@@ -39,7 +35,12 @@ param arquivo
 param linha
 param charset
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha get
+param arquivo
+param numero
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Linha set
 tipo_void
 param arquivo
 param linha
+
