@@ -1,4 +1,4 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Method get
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IMethod get
 param objeto
 param nomeMetodoGet
 

@@ -1,35 +1,35 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List addNew
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList addNew
 param lista
 param valor
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List notContains
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList notContains
 param lista
 param valor
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List add
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList add
 tipo_void
 param lista
 param valor
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List clear
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList clear
 tipo_void
 param lista
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List contains
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList contains
 param lista
 param valor
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List size
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList size
 param lista
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List create
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList create
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List head
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList head
 param lista
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List empty
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList empty
 param lista
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.List tail
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList tail
 param lista
 
