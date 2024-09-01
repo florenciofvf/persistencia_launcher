@@ -1,6 +1,6 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Parse bigInteger
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse bigInteger
 param object
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Parse bigDecimal
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse bigDecimal
 param object
 

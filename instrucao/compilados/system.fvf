@@ -1,4 +1,4 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.System timeMillis
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ISystem timeMillis
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.System nanoTime
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ISystem nanoTime
 

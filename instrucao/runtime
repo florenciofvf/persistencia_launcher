@@ -1,2 +1,2 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_Runtime exec(comando) : void;
+function_native br_com_persist_plugins_instrucao_biblionativo_IRuntime exec(comando) : void;
 

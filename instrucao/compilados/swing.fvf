@@ -1,4 +1,4 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Swing mensagem
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ISwing mensagem
 tipo_void
 param string
 
