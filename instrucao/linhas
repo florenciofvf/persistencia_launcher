@@ -1,0 +1,4 @@
+function_native br_com_persist_plugins_instrucao_biblionativo_ILinhas contem(arquivo, string);
+
+function_native br_com_persist_plugins_instrucao_biblionativo_ILinhas contemExtremos(arquivo, stringInicio, stringFinal);
+

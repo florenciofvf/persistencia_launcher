@@ -1,0 +1,9 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas contem
+param arquivo
+param string
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas contemExtremos
+param arquivo
+param stringInicio
+param stringFinal
+

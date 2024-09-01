@@ -1,12 +1,12 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Arquivo ler
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo ler
 param absoluto
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Arquivo salvar
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo salvar
 tipo_void
 param arquivo
 param charset
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.Arquivo copiar
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo copiar
 param absolutoOrigem
 param absolutoDestino
 
