@@ -1,6 +1,6 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_DB select(conexao, consulta);
+function_native br_com_persist_plugins_instrucao_biblionativo_IDB select(conexao, consulta);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_DB getConnection(driver, url, usuario, senha);
+function_native br_com_persist_plugins_instrucao_biblionativo_IDB getConnection(driver, url, usuario, senha);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_DB closeConnection(conexao) : void;
+function_native br_com_persist_plugins_instrucao_biblionativo_IDB closeConnection(conexao) : void;
 

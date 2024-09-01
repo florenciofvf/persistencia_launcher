@@ -1,14 +1,14 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.DB select
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB select
 param conexao
 param consulta
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.DB getConnection
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB getConnection
 param driver
 param url
 param usuario
 param senha
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.DB closeConnection
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB closeConnection
 tipo_void
 param conexao
 
