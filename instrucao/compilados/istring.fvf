@@ -1,7 +1,7 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IString createStringPool
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IString notEmpty
 param object
-
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IString createStringPool
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IString upper
 param object

@@ -1,20 +1,20 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinha getString
-param linha
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinha setString
 tipo_void
 param linha
 param string
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinha getStringEntre
-param linha
+param objLinha
 param stringInicio
 param stringFinal
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinha setStringEntre
 tipo_void
-param linha
+param objLinha
 param stringInicio
 param stringFinal
 param stringNova
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinha getString
+param linha
 

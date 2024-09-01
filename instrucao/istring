@@ -1,6 +1,6 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IString notEmpty(object);
-
 function_native br_com_persist_plugins_instrucao_biblionativo_IString createStringPool();
+
+function_native br_com_persist_plugins_instrucao_biblionativo_IString notEmpty(object);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IString upper(object);
 

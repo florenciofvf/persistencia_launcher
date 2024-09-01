@@ -1,6 +1,6 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil getTrue();
-
 function_native br_com_persist_plugins_instrucao_biblionativo_IUtil getFalse();
+
+function_native br_com_persist_plugins_instrucao_biblionativo_IUtil getTrue();
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNotNull(object);
 

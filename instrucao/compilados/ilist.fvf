@@ -1,8 +1,8 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList addNew
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList notContains
 param lista
 param valor
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList notContains
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IList addNew
 param lista
 param valor
 

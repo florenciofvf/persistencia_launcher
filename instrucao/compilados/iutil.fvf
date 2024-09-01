@@ -1,6 +1,6 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil getTrue
-
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil getFalse
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil getTrue
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil isNotNull
 param object
