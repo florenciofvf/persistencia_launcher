@@ -10,3 +10,8 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo copiar
 param absolutoOrigem
 param absolutoDestino
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo existe
+param absoluto
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo separador
+
