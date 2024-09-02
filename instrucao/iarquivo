@@ -1,10 +1,12 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo ler(absoluto);
+function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo copiar(absolutoOrigem, absolutoDestino);
+
+function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo getLista(arquivo);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvar(arquivo, charset) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvarLinhas(absoluto, lista, charset) : void;
+function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo ler(absoluto);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo copiar(absolutoOrigem, absolutoDestino);
+function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvarLinhas(absoluto, lista, charset) : void;
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo existe(absoluto);
 
