@@ -1,3 +1,5 @@
+function_native br_com_persist_plugins_instrucao_biblionativo_IMap getOr(mapa, chave, padrao);
+
 function_native br_com_persist_plugins_instrucao_biblionativo_IMap get(mapa, chave);
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IMap put(mapa, chave, valor) : void;

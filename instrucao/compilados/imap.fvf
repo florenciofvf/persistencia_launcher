@@ -1,3 +1,8 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IMap getOr
+param mapa
+param chave
+param padrao
+
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IMap get
 param mapa
 param chave
