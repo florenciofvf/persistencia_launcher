@@ -16,3 +16,5 @@ param valor
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IMap size
 param mapa
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IMap create
+

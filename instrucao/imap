@@ -6,3 +6,5 @@ function_native br_com_persist_plugins_instrucao_biblionativo_IMap put(mapa, cha
 
 function_native br_com_persist_plugins_instrucao_biblionativo_IMap size(mapa);
 
+function_native br_com_persist_plugins_instrucao_biblionativo_IMap create();
+
