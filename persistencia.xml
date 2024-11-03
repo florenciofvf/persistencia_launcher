@@ -37,6 +37,9 @@
 
 	<menu descricao="Utilitários">
 		<menu
+			classeFabrica="br.com.persist.plugins.ouvinte.OuvinteFabrica"
+			ativo="true" />
+		<menu
 			classeFabrica="br.com.persist.plugins.anotacao.AnotacaoFabrica"
 			ativo="true" />
 		<menu
