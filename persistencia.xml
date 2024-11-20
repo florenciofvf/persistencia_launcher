@@ -63,6 +63,9 @@
 		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.instrucao.InstrucaoFabrica"
 			ativo="true" />
+		<menu separador="true"
+			classeFabrica="br.com.persist.plugins.projeto.ProjetoFabrica" 
+			ativo="true" />
 	</menu>
 
 	<menu descricao="Ambientes">
