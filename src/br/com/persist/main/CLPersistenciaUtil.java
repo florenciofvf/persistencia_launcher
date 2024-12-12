@@ -45,7 +45,7 @@ public class CLPersistenciaUtil {
 				String linha = br.readLine();
 				while (linha != null) {
 					linha = linha.trim();
-					if (linha.endsWith(".jar")) {
+					if (!linha.startsWith("#") && linha.endsWith(".jar")) {
 						lista.add(new File(linha));
 					}
 					linha = br.readLine();
