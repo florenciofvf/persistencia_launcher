@@ -1,4 +1,4 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IParse bigInteger(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IParse bigInteger(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IParse bigDecimal(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IParse bigDecimal(object);
 

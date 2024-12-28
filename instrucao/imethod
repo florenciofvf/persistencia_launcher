@@ -1,2 +1,2 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IMethod get(objeto, nomeMetodoGet);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IMethod get(objeto, nomeMetodoGet);
 

@@ -1,20 +1,20 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IList notContains(lista, valor);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList notContains(lista, valor);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList addNew(lista, valor);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList addNew(lista, valor);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList add(lista, valor) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList add(lista, valor) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList clear(lista) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList clear(lista) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList contains(lista, valor);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList contains(lista, valor);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList size(lista);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList size(lista);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList create();
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList create();
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList head(lista);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList head(lista);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList empty(lista);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList empty(lista);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IList tail(lista);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IList tail(lista);
 

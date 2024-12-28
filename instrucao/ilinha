@@ -1,8 +1,8 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_ILinha setString(linha, string) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinha setString(linha, string) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_ILinha getStringEntre(objLinha, stringInicio, stringFinal);
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinha getStringEntre(objLinha, stringInicio, stringFinal);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_ILinha setStringEntre(objLinha, stringInicio, stringFinal, stringNova) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinha setStringEntre(objLinha, stringInicio, stringFinal, stringNova) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_ILinha getString(linha);
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinha getString(linha);
 

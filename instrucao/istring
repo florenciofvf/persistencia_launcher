@@ -1,16 +1,16 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IString createStringPool();
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString createStringPool();
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString notEmpty(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString notEmpty(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString upper(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString upper(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString lower(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString lower(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString append(stringPool, object) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString append(stringPool, object) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString trim(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString trim(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString size(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString size(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IString empty(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString empty(object);
 

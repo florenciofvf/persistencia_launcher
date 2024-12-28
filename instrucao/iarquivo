@@ -1,14 +1,14 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo copiar(absolutoOrigem, absolutoDestino);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo copiar(absolutoOrigem, absolutoDestino);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo getLista(arquivo);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo getLista(arquivo);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvar(arquivo, charset) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvar(arquivo, charset) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo ler(absoluto);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo ler(absoluto);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvarLinhas(absoluto, lista, charset) : void;
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo salvarLinhas(absoluto, lista, charset) : void;
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo existe(absoluto);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo existe(absoluto);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IArquivo separador();
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo separador();
 

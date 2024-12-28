@@ -1,10 +1,10 @@
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil getFalse();
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil getFalse();
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil getTrue();
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil getTrue();
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNotNull(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNotNull(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil toString(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil toString(object);
 
-function_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNull(object);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNull(object);
 
