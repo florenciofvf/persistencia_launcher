@@ -94,3 +94,27 @@ param resp
 3  invoke_exp reduzirE
 6  return
 
+funcao find
+param [h:t]
+param f
+param default
+0  load_param [h:t]
+1  invoke_exp ilist.create
+2  eq
+3  ifeq 8
+6  load_param default
+7  return
+8  load_param [h:t]
+9  invoke_exp ilist.head
+12  invoke_param_exp f 1
+15  ifeq 23
+18  load_param [h:t]
+19  invoke_exp ilist.head
+22  return
+23  load_param [h:t]
+24  invoke_exp ilist.tail
+27  load_param f
+28  load_param default
+29  invoke_exp find
+32  return
+

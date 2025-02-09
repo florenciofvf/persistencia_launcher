@@ -35,3 +35,13 @@ defun reduzirE([h:t], f, resp) {
 defun reduzir([h:t], f, resp) {
 	return reduzirE([h:t], f, resp);
 }
+
+defun find([h:t], f, default) {
+	if([h:t] = []) {
+		return default;
+	};
+	if(f(h)) {
+		return h;
+	};
+	return find(t, f, default);
+}
