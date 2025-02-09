@@ -25,3 +25,22 @@ param f
 37  invoke_exp filtrar
 40  return
 
+funcao mapear
+param [h:t]
+param f
+0  load_param [h:t]
+1  invoke_exp ilist.create
+2  eq
+3  ifeq 8
+6  invoke_exp ilist.create
+7  return
+8  load_param [h:t]
+9  invoke_exp ilist.head
+12  invoke_param_exp f 1
+15  load_param [h:t]
+16  invoke_exp ilist.tail
+19  load_param f
+20  invoke_exp mapear
+23  add_lista
+24  return
+

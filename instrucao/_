@@ -10,3 +10,10 @@ defun filtrar([h:t], f) {
 		return filtrar(t, f);
 	};
 }
+
+defun mapear([h:t], f) {
+	if([h:t] = []) {
+		return [];
+	};
+	return f(h) : mapear(t, f);
+}
