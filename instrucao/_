@@ -1,0 +1,12 @@
+/*abrir_compilar*/
+
+defun filtrar([h:t], f) {
+	if([h:t] = []) {
+		return [];
+	};
+	if(f(h)) {
+		return h : filtrar(t, f);
+	} else {
+		return filtrar(t, f);
+	};
+}
