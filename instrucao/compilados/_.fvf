@@ -44,3 +44,53 @@ param f
 23  add_lista
 24  return
 
+funcao reduzirD
+param [h:t]
+param f
+param resp
+0  load_param [h:t]
+1  invoke_exp ilist.create
+2  eq
+3  ifeq 8
+6  load_param resp
+7  return
+8  load_param [h:t]
+9  invoke_exp ilist.head
+12  load_param [h:t]
+13  invoke_exp ilist.tail
+16  load_param f
+17  load_param resp
+18  invoke_exp reduzirD
+21  invoke_param_exp f 2
+24  return
+
+funcao reduzirE
+param [h:t]
+param f
+param resp
+0  load_param [h:t]
+1  invoke_exp ilist.create
+2  eq
+3  ifeq 8
+6  load_param resp
+7  return
+8  load_param [h:t]
+9  invoke_exp ilist.tail
+12  load_param f
+13  load_param [h:t]
+14  invoke_exp ilist.head
+17  load_param resp
+18  invoke_param_exp f 2
+21  invoke_exp reduzirE
+24  return
+
+funcao reduzir
+param [h:t]
+param f
+param resp
+0  load_param [h:t]
+1  load_param f
+2  load_param resp
+3  invoke_exp reduzirE
+6  return
+

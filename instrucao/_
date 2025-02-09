@@ -17,3 +17,21 @@ defun mapear([h:t], f) {
 	};
 	return f(h) : mapear(t, f);
 }
+
+defun reduzirD([h:t], f, resp) {
+	if([h:t] = []) {
+		return resp;
+	};
+	return f(h, reduzirD(t, f, resp));
+}
+
+defun reduzirE([h:t], f, resp) {
+	if([h:t] = []) {
+		return resp;
+	};
+	return reduzirE(t, f, f(h, resp));
+}
+
+defun reduzir([h:t], f, resp) {
+	return reduzirE([h:t], f, resp);
+}
