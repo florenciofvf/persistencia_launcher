@@ -118,3 +118,21 @@ param default
 29  invoke_exp find
 32  return
 
+funcao forEach
+tipo_void
+param [h:t]
+param f
+0  load_param [h:t]
+1  invoke_exp ilist.create
+2  eq
+3  ifeq 7
+6  return
+7  load_param [h:t]
+8  invoke_exp ilist.head
+11  invoke_param f 1
+14  load_param [h:t]
+15  invoke_exp ilist.tail
+18  load_param f
+19  invoke forEach
+22  return
+

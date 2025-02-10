@@ -45,3 +45,12 @@ defun find([h:t], f, default) {
 	};
 	return find(t, f, default);
 }
+
+defun forEach([h:t], f) : void {
+	if([h:t] = []) {
+		return;
+	};
+	f(h);
+	forEach(t, f);
+	return;
+}
