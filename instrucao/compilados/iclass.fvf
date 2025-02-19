@@ -1,3 +1,6 @@
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IClass get
 param absoluto
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IClass getType
+param objeto
+

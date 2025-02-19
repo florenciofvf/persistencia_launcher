@@ -1,2 +1,4 @@
 defun_native br_com_persist_plugins_instrucao_biblionativo_IClass get(absoluto);
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IClass getType(objeto);
+
