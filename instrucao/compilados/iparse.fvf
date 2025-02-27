@@ -4,3 +4,6 @@ param object
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse bigDecimal
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse dateUS
+param stringUS
+
