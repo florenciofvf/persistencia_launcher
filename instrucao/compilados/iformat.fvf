@@ -1,0 +1,9 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IFormat date
+param date
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IFormat time
+param date
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IFormat dateTime
+param date
+

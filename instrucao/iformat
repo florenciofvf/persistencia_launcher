@@ -1,0 +1,6 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IFormat date(date);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IFormat time(date);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IFormat dateTime(date);
+
