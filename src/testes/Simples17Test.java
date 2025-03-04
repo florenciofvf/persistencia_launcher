@@ -17,19 +17,21 @@ public class Simples17Test extends AbstratoTeste {
 	public void test() throws IOException, InstrucaoException {
 		compilar();
 
-		result = processador.processar(bibliotecaContexto.getNome(), "diaDaSemana", bi(1));
+		String nomeFuncao = "diaDaSemana";
+
+		result = processador.processar(bibliotecaContexto.getNome(), nomeFuncao, bi(1));
 		assertEquals("[FINAL DE SEMANA]", result.toString());
 
-		result = processador.processar(bibliotecaContexto.getNome(), "diaDaSemana", bi(-1));
+		result = processador.processar(bibliotecaContexto.getNome(), nomeFuncao, bi(-1));
 		assertEquals("[DIA INVÁLIDO]", result.toString());
 
-		result = processador.processar(bibliotecaContexto.getNome(), "diaDaSemana", bi(6));
+		result = processador.processar(bibliotecaContexto.getNome(), nomeFuncao, bi(6));
 		assertEquals("[Meio da semana]", result.toString());
 
-		result = processador.processar(bibliotecaContexto.getNome(), "diaDaSemana", bi(7));
+		result = processador.processar(bibliotecaContexto.getNome(), nomeFuncao, bi(7));
 		assertEquals("[FINAL DE SEMANA]", result.toString());
 
-		result = processador.processar(bibliotecaContexto.getNome(), "diaDaSemana", bi(8));
+		result = processador.processar(bibliotecaContexto.getNome(), nomeFuncao, bi(8));
 		assertEquals("[DIA INVÁLIDO]", result.toString());
 	}
 }
