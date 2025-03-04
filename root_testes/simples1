@@ -1,0 +1,13 @@
+':coment meu comentário'
+
+defun getString(':coment$param') {
+	return ('Olá Mundo!');
+}
+
+defun pi() {
+	return (3.1415169);
+}
+
+defun mil() {
+	return (1000);
+}
