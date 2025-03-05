@@ -1,6 +1,6 @@
 package testes;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
@@ -17,6 +17,13 @@ public class Simples1Test extends AbstratoTeste {
 	public void test() throws IOException, InstrucaoException {
 		compilar();
 
-		assertNotNull(bibliotecaContexto);
+		result = processador.processar(bibliotecaContexto.getNome(), "getString");
+		assertEquals("[Olá Mundo!]", result.toString());
+
+		result = processador.processar(bibliotecaContexto.getNome(), "pi");
+		assertEquals("[3.1415169]", result.toString());
+
+		result = processador.processar(bibliotecaContexto.getNome(), "mil");
+		assertEquals("[1000]", result.toString());
 	}
 }
