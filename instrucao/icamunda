@@ -1,0 +1,4 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICamunda getConsulta();
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICamunda montarPutVariable(absoluto);
+

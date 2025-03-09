@@ -1,0 +1,5 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICamunda getConsulta
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICamunda montarPutVariable
+param absoluto
+
