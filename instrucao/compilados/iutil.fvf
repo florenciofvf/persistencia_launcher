@@ -11,3 +11,7 @@ param object
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil isNull
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil log
+param desc
+param object
+
