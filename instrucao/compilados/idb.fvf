@@ -12,3 +12,9 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB closeConnection
 tipo_void
 param conexao
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB getConexao
+param nome
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB getConnectionProvedor
+param conexao
+

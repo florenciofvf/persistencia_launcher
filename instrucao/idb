@@ -4,3 +4,7 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IDB getConnection(dri
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IDB closeConnection(conexao) : void;
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDB getConexao(nome);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDB getConnectionProvedor(conexao);
+
