@@ -1,0 +1,6 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPath get
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPath absolute
+param object
+

@@ -1,0 +1,4 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPath get(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPath absolute(object);
+
