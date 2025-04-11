@@ -8,3 +8,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IMap size(mapa);
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IMap create();
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IMap createOf(lista);
+
