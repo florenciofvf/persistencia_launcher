@@ -14,3 +14,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IString size(object);
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IString empty(object);
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IString contains(string, procurado);
+
