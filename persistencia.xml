@@ -64,7 +64,7 @@
 			classeFabrica="br.com.persist.plugins.instrucao.InstrucaoFabrica"
 			ativo="true" />
 		<menu separador="true"
-			classeFabrica="br.com.persist.plugins.projeto.ProjetoFabrica" 
+			classeFabrica="br.com.persist.plugins.projeto.ProjetoFabrica"
 			ativo="true" />
 	</menu>
 
@@ -84,6 +84,8 @@
 			classeFabrica="br.com.persist.plugins.mapa.MapaFabrica" ativo="true" />
 		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.robo.RoboFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.biblio.BiblioFabrica"
+			ativo="true" />
 	</menu>
 
 	<menu descricao="Geradores">
