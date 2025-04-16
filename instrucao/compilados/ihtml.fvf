@@ -1,0 +1,9 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IHtml erro
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IHtml info
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IHtml warn
+param object
+

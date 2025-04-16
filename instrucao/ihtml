@@ -1,0 +1,6 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IHtml erro(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IHtml info(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IHtml warn(object);
+
