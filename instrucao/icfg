@@ -1,0 +1,24 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setIniNorm(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setIniInfo(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setIniWarn(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setIniErro(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setFimNorm(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setFimInfo(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setFimWarn(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg setFimErro(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg norm(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg info(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg warn(object);
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_ICfg erro(object);
+

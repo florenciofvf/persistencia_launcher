@@ -1,0 +1,44 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setIniNorm
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setIniInfo
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setIniWarn
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setIniErro
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setFimNorm
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setFimInfo
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setFimWarn
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg setFimErro
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg norm
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg info
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg warn
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ICfg erro
+param object
+
