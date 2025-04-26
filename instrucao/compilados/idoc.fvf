@@ -1,0 +1,21 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc init
+tipo_void
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc getPool
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc none
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc info
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc warn
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc erro
+tipo_void
+param object
+

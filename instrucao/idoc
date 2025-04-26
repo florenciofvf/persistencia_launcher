@@ -1,0 +1,12 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc init() : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc getPool();
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc none(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc info(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc warn(object) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc erro(object) : void;
+
