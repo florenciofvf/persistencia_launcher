@@ -23,3 +23,7 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc nota
 tipo_void
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc show
+tipo_void
+param object
+
