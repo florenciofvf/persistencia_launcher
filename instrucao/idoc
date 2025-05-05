@@ -14,3 +14,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc nota(object) : v
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc show(object) : void;
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDoc noneUnderline(object) : void;
+
