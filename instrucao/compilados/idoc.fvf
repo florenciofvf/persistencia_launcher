@@ -31,3 +31,23 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc noneUnderline
 tipo_void
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc infoUnderline
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc warnUnderline
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc erroUnderline
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc notaUnderline
+tipo_void
+param object
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc showUnderline
+tipo_void
+param object
+
