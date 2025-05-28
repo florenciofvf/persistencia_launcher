@@ -1,5 +1,5 @@
 defun main() {
-	return quickSort((46 : 1 : 2 : -3 : 4 : 50 : 6 : 0));
+	return quickSort(46 : 1 : 2 : -3 : 4 : 50 : 6 : 0);
 }
 
 defun quickSort([h:t]) {

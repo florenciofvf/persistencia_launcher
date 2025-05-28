@@ -1,9 +1,9 @@
 defun diaDaSemana(numero) {
 	if(numero = 1 | numero = 7) {
-		return ('FINAL DE SEMANA');
+		return 'FINAL DE SEMANA';
 	} elseif(numero < 1 | numero > 7) {
-		return ('DIA INVÁLIDO');
+		return 'DIA INVÁLIDO';
 	} else {
-		return ('Meio da semana');
+		return 'Meio da semana';
 	}
 }

@@ -62,10 +62,10 @@ defun teste005(a, b, c) {
 			}
 		}
 		if(c) {
-			return ('retorno C');
+			return 'retorno C';
 		}
 	}
-	return ('main');
+	return 'main';
 }
 
 defun teste006(a, b, c) {
@@ -75,13 +75,13 @@ defun teste006(a, b, c) {
 			if (c) {
 				outraMensagem();
 			} else {
-				return ('else C');
+				return 'else C';
 			}
 		} else {
-			return ('else B');
+			return 'else B';
 		}
 	}
-	return ('main');
+	return 'main';
 }
 
 defun teste007(a, b, c) : void {
@@ -95,9 +95,9 @@ defun teste007(a, b, c) : void {
 
 defun get(a, b, c) {
 	if (a) {
-		return (b);
+		return b;
 	} else {
-		return (c);
+		return c;
 	}
 }
 
@@ -129,19 +129,19 @@ defun teste008(a, b, c) : void {
 }
 
 defun teste009(a, b, c) : void {
-    if(a) {
-       if(b) {
-          mensagem();
-          if(c) {
-             outraMensagem();
-          } else {
-             return;
-          }
-       } else {
-          return;
-       }
-    }
-    return;
+	if(a) {
+		if(b) {
+			mensagem();
+			if(c) {
+				outraMensagem();
+			} else {
+				return;
+			}
+		} else {
+			return;
+		}
+	}
+	return;
 }
 
 defun teste010( a,  b,  c) {
@@ -150,14 +150,14 @@ defun teste010( a,  b,  c) {
 	} else {
 		if (b) {
 			if (c) {
-				return ('return C');
+				return 'return C';
 			} else {
 				outraMensagem();
 			}
 			mensagem();
 		} else {
-			return ('return B');
+			return 'return B';
 		}
 	}
-	return ('return teste010');
+	return 'return teste010';
 }

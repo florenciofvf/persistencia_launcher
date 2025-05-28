@@ -1,18 +1,18 @@
 defun teste1() {
-	return ('Java');
+	return 'Java';
 }
 
 defun teste2() {
-	return (2);
+	return 2;
 }
 
 defun testar() {
 	invocaFuncao(teste1);
-	return (proxy(teste1) + teste2());
+	return proxy(teste1) + teste2();
 }
 
 defun proxy(funcao) {
-	return (funcao());
+	return funcao();
 }
 
 defun invocaFuncao(funcao) :void {

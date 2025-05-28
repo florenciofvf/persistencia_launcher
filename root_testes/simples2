@@ -1,5 +1,5 @@
 defun somar($valor1, $valor2) {
-	return ($valor1 + $valor2 + mensagem2('Java'));
+	return $valor1 + $valor2 + mensagem2('Java');
 }
 
 defun_native br_com_persist_plugins_instrucao_BiblioNativa mensagem($msg);

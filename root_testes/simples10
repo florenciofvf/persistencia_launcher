@@ -1,8 +1,8 @@
 defun se($valor, $retorno1, $retorno2) {
 	if($valor > 2222) {
-		return ($retorno1);
+		return $retorno1;
 	} else {
-		return ($retorno2);
+		return $retorno2;
 	}
 }
 
@@ -12,7 +12,7 @@ defun teste($valor, $retorno1, $retorno2) {
 	} else {
 		mensagem($retorno2);
 	}
-	return (0);
+	return 0;
 }
 
 defun mensagem(valor) : void {
