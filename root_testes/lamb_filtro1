@@ -1,5 +1,5 @@
 defun main(valor) {
-	return filtrar((1 : 2 : -3 : 4 : 50 : 6), lamb(e){return e >= valor;});
+	return filtrar(1 : 2 : -3 : 4 : 50 : 6, lamb(e){return e >= valor;});
 }
 
 defun filtrar([h:t], f) {

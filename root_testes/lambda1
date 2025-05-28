@@ -3,7 +3,7 @@ defun main() {
 }
 
 defun resposta(textoPar, textoImpar) {
-	return concat((1:2:3:4:5), lamb(e){return textoPar + e;}, lamb(e){return textoImpar + e;});
+	return concat(1:2:3:4:5, lamb(e){return textoPar + e;}, lamb(e){return textoImpar + e;});
 }
 
 defun concat([h:t], par, impar) {
