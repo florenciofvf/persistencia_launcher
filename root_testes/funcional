@@ -12,5 +12,5 @@ defun proxy(funcao) {
 }
 
 defun minhaFuncao() {
-	return ('Minha Função');
+	return 'Minha Função';
 }
