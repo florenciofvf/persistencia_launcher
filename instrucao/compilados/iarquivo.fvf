@@ -24,3 +24,6 @@ param absoluto
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo separador
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IArquivo createStringReader
+param absoluto
+

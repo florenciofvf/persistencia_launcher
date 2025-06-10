@@ -1,0 +1,26 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPsmt setInteger
+tipo_void
+param psmt
+param indice
+param valor
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPsmt setString
+tipo_void
+param psmt
+param indice
+param valor
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPsmt setReader
+tipo_void
+param psmt
+param indice
+param reader
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPsmt executeUpdate
+tipo_void
+param psmt
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IPsmt closePsmt
+tipo_void
+param psmt
+

@@ -1,0 +1,10 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPsmt setInteger(psmt, indice, valor) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPsmt setString(psmt, indice, valor) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPsmt setReader(psmt, indice, reader) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPsmt executeUpdate(psmt) : void;
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IPsmt closePsmt(psmt) : void;
+

@@ -18,3 +18,7 @@ param nome
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB getConnectionProvedor
 param conexao
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDB createPreparedStatement
+param conexao
+param instrucao
+

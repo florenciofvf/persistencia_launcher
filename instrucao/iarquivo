@@ -12,3 +12,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo existe(absol
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo separador();
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IArquivo createStringReader(absoluto);
+
