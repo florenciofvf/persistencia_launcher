@@ -51,3 +51,6 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc showUnderline
 tipo_void
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDoc ordenar
+tipo_void
+
