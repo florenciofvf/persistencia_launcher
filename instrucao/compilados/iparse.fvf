@@ -1,7 +1,7 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse bigInteger
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse createBigInteger
 param object
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse bigDecimal
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse createBigDecimal
 param object
 
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IParse dateUS
