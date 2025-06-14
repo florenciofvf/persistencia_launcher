@@ -1,8 +1,8 @@
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas contem
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas getLinhasQueContem
 param arquivo
 param string
 
-funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas contemExtremos
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.ILinhas getLinhasQueContemExtremos
 param arquivo
 param stringInicio
 param stringFinal

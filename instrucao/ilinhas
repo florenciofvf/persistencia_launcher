@@ -1,4 +1,4 @@
-defun_native br_com_persist_plugins_instrucao_biblionativo_ILinhas contem(arquivo, string);
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinhas getLinhasQueContem(arquivo, string);
 
-defun_native br_com_persist_plugins_instrucao_biblionativo_ILinhas contemExtremos(arquivo, stringInicio, stringFinal);
+defun_native br_com_persist_plugins_instrucao_biblionativo_ILinhas getLinhasQueContemExtremos(arquivo, stringInicio, stringFinal);
 
