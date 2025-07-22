@@ -1,2 +1,4 @@
 defun_native br_com_persist_plugins_instrucao_biblionativo_IDesktop open(absoluto) : void;
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDesktop edit(absoluto) : void;
+
