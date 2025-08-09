@@ -1,0 +1,6 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IHttp get
+param param
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IHttp post
+param param
+
