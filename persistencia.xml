@@ -55,6 +55,9 @@
 			classeFabrica="br.com.persist.plugins.requisicao.RequisicaoFabrica"
 			ativo="true" />
 		<menu separador="true"
+			classeFabrica="br.com.persist.plugins.navegacao.NavegacaoFabrica"
+			ativo="true" />
+		<menu separador="true"
 			classeFabrica="br.com.persist.plugins.execucao.ExecucaoFabrica"
 			ativo="true" />
 		<menu separador="true"
