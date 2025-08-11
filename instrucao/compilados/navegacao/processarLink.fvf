@@ -1,0 +1,16 @@
+package navegacao
+
+funcao main
+param base
+param complemento
+0  push_string url
+2  load_param base
+3  load_param complemento
+4  add
+5  add_lista
+6  invoke_exp imap.createOf
+9  def_const param
+10  load_const param
+11  invoke_exp ihttp.get
+14  return
+

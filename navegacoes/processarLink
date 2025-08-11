@@ -1,0 +1,8 @@
+/*abrir_compilar*/
+
+package 'navegacao';
+
+defun main(base, complemento) {
+	const param imap.createOf('url': base + complemento);
+	return ihttp.get(param);
+}
