@@ -1,2 +1,4 @@
-defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio name(biblio);
+defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio name();
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio simpleName();
 

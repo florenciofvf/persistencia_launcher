@@ -1,1 +1,3 @@
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IBiblio name
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IBiblio simpleName
