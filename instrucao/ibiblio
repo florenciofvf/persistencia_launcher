@@ -2,3 +2,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio name();
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio simpleName();
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IBiblio nameAPartir(apartir);
+
