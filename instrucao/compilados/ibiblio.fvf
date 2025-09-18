@@ -5,3 +5,6 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IBiblio simpleName
 funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IBiblio nameAPartir
 param apartir
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IBiblio nameApos
+param apos
+
