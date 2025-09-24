@@ -10,3 +10,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil isNull(object);
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil log(desc, object);
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil replaceAll(string, atual, novo);
+

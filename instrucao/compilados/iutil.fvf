@@ -15,3 +15,8 @@ funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil log
 param desc
 param object
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil replaceAll
+param string
+param atual
+param novo
+
