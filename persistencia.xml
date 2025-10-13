@@ -12,6 +12,7 @@
 	</menu>
 
 	<menu descricao="Arquivos">
+		<menu classeFabrica="br.com.persist.plugins.sistema.SistemaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.anexo.AnexoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.arquivo.ArquivoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica" ativo="true" />
