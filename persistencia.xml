@@ -7,23 +7,23 @@
 	</menu>
 
 	<menu descricao="Banco de Dados">
+		<menu classeFabrica="br.com.persist.plugins.conexao.ConexaoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.consulta.ConsultaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.update.UpdateFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.objeto.alter.AlternativoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Arquivos">
 		<menu classeFabrica="br.com.persist.plugins.sistema.SistemaFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.anexo.AnexoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.arquivo.ArquivoFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.metadado.MetadadoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Tabelas">
-		<menu classeFabrica="br.com.persist.plugins.conexao.ConexaoFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.objeto.alter.AlternativoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.fragmento.FragmentoFabrica" ativo="true" />
-		<menu classeFabrica="br.com.persist.plugins.mapeamento.MapeamentoFabrica" ativo="true" />
 		<menu classeFabrica="br.com.persist.plugins.variaveis.VariavelFabrica" ativo="true" />
+		<menu classeFabrica="br.com.persist.plugins.mapeamento.MapeamentoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Fichários">
