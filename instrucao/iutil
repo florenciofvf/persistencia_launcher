@@ -12,3 +12,5 @@ defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil log(desc, objec
 
 defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil replaceAll(string, atual, novo);
 
+defun_native br_com_persist_plugins_instrucao_biblionativo_IUtil getContentTransfered();
+

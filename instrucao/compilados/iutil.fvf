@@ -20,3 +20,5 @@ param string
 param atual
 param novo
 
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IUtil getContentTransfered
+
