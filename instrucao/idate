@@ -1,0 +1,6 @@
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDate getAnoAtual();
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDate getMesAtual();
+
+defun_native br_com_persist_plugins_instrucao_biblionativo_IDate getDiaAtual();
+

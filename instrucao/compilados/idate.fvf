@@ -1,0 +1,6 @@
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDate getAnoAtual
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDate getMesAtual
+
+funcao_nativa br.com.persist.plugins.instrucao.biblionativo.IDate getDiaAtual
+
