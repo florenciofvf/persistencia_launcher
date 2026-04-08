@@ -1,3 +1,0 @@
-defun teste1() {
-	return [];
-}

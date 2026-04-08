@@ -1,3 +1,0 @@
-defun main() {
-	return _.reduzir((1:2), lamb(e, resp){return e + resp;}, 0);
-}

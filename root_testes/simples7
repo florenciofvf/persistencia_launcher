@@ -1,3 +1,0 @@
-defun expressao() {
-	return (3 + 4) * (5 - 3);
-}

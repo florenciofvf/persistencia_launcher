@@ -1,3 +1,0 @@
-defun teste0([ head : tail ]) {
-	return [objeto.ATIVO];
-}
