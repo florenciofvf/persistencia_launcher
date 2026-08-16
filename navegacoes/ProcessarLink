@@ -1,0 +1,8 @@
+package plugin_navegacao.br.com.processarLink;
+
+alias br.com.persist.plugins.expressao.biblionativo.Http http;
+
+defun main(base, complemento) {
+	const param = {'url': base + complemento};
+	return http.get(param);
+}

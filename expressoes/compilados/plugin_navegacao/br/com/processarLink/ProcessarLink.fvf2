@@ -1,0 +1,23 @@
+pacote plugin_navegacao.br.com.processarLink
+
+alias br.com.persist.plugins.expressao.biblionativo.List list
+alias br.com.persist.plugins.expressao.biblionativo.Map map
+alias br.com.persist.plugins.expressao.biblionativo.Http http
+
+funcao main
+param base
+param complemento
+0  invoke_cret br.com.persist.plugins.expressao.biblionativo.Map create
+3  load_param main base
+6  load_param main complemento
+7  add
+8  put_item_mapa url
+9  def_const param
+12  load_const this param
+14  invoke_cret br.com.persist.plugins.expressao.biblionativo.Http get
+17  return
+
+funcao $constantes
+tipo_void
+0  return
+
