@@ -4,7 +4,7 @@ alias br.com.persist.plugins.expressao.biblionativo.Http http;
 
 defun main() {
 	const param = {
-		'url': 'http://desenv.com.br'
+		'url': 'https://wwww.google.com'
 	};
 	return http.get(param);
 }

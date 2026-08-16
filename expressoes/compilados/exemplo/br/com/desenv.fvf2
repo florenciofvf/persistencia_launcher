@@ -6,7 +6,7 @@ alias br.com.persist.plugins.expressao.biblionativo.Http http
 
 funcao main
 0  invoke_cret br.com.persist.plugins.expressao.biblionativo.Map create
-3  push_string http://desenv.com.br
+3  push_string https://wwww.google.com
 4  put_item_mapa url
 5  def_const param
 8  load_const this param
