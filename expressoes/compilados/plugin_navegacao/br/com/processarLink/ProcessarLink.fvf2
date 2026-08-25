@@ -5,11 +5,11 @@ alias br.com.persist.plugins.expressao.biblionativo.Map map
 alias br.com.persist.plugins.expressao.biblionativo.Http http
 
 funcao main
-param base
-param complemento
+param prefixo
+param sufixo
 0  invoke_cret br.com.persist.plugins.expressao.biblionativo.Map create
-3  load_param main base
-6  load_param main complemento
+3  load_param main prefixo
+6  load_param main sufixo
 7  add
 8  put_item_mapa url
 9  def_const param

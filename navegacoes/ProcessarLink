@@ -2,7 +2,7 @@ package plugin_navegacao.br.com.processarLink;
 
 alias br.com.persist.plugins.expressao.biblionativo.Http http;
 
-defun main(base, complemento) {
-	const param = {'url': base + complemento};
+defun main(prefixo, sufixo) {
+	const param = {'url': prefixo + sufixo};
 	return http.get(param);
 }
