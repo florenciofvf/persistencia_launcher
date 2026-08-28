@@ -1,0 +1,21 @@
+pacote exemplo.br.com
+
+alias br.com.persist.plugins.expressao.biblionativo.List list
+alias br.com.persist.plugins.expressao.biblionativo.Map map
+alias br.com.persist.plugins.expressao.biblionativo.Http http
+
+funcao main
+0  invoke_cret br.com.persist.plugins.expressao.biblionativo.Map create
+3  push_string file:////Users/florenciovieirafilho/Desktop/exemplo.jpg
+4  put_item_mapa url
+7  push_string image/jpg
+8  put_item_mapa forceContentType
+9  def_const param
+12  load_const this param
+14  invoke_cret br.com.persist.plugins.expressao.biblionativo.Http get
+17  return
+
+funcao $constantes
+tipo_void
+0  return
+

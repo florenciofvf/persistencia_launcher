@@ -1,0 +1,12 @@
+/*abrir_compilar*/
+package exemplo.br.com;
+
+alias br.com.persist.plugins.expressao.biblionativo.Http http;
+
+defun main() {
+	const param = {
+		'url': 'file:////Users/florenciovieirafilho/Desktop/exemplo.jpg',
+		'forceContentType': 'image/jpg'
+	};
+	return http.get(param);
+}
