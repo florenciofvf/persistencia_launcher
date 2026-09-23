@@ -35,7 +35,7 @@
 		<menuItem classeFabrica="br.com.persist.plugins.legado.LegadoFabrica" ativo="true" />
 	</menu>
 
-	<menu descricao="Árvores" ativo="true">
+	<menu descricao="Árvores" ativo="true" icone="wildcard_nav_rule">
 		<menuItem classeFabrica="br.com.persist.plugins.anotacao.AnotacaoFabrica" ativo="true" />
 		<menuItem classeFabrica="br.com.persist.plugins.navegacao.NavegacaoFabrica" ativo="true" />
 		<menuItem classeFabrica="br.com.persist.plugins.execucao.ExecucaoFabrica" ativo="true" />
