@@ -59,6 +59,7 @@
 		<menuItem classeFabrica="br.com.persist.plugins.quebra_log.QuebraLogFabrica" ativo="true" />
 		<menuItem classeFabrica="br.com.persist.plugins.gera_plugin.GeraPluginFabrica" ativo="true" />
 		<menuItem classeFabrica="br.com.persist.plugins.propriedade.PropriedadeFabrica" ativo="true" />
+		<menuItem classeFabrica="br.com.persist.plugins.labirinto.LabirintoFabrica" ativo="true" />
 	</menu>
 
 	<menu descricao="Aparência" ativo="true" icone="favorito">
